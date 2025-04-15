@@ -196,4 +196,11 @@ footer {
   .hero p {
     font-size: 1em;
   }
+  
+}
+.nav-links a:hover {
+  color: gold;
+}
+.hero {
+  background-color: #222; /* fallback background */
 }
