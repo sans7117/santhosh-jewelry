@@ -1,100 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Santhosh Jewellers</title>
-  <link rel="stylesheet" href="style.css">
-
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
 </head>
-
 <body>
-  <header>
-    <nav class="navbar">
-      <img src="images/logo.jpg" alt="Santhosh Jewellers Logo" class="logo" />
-      <div class="nav-links" id="navLinks">
-        <a href="#about">About</a>
-        <a href="#products">Products</a>
-        <a href="#occasions">Occasions</a>
-        <a href="#contact">Contact</a>
-      </div>
-      <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+  <header class="navbar">
+    <div class="logo">Santhosh Jewellers</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#collections">Collections</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </nav>
   </header>
 
   <section class="hero">
     <div class="hero-text">
-      <h1>Santhosh Jewellers</h1>
-      <p>Elegance in Every Carat</p>
-      <a href="#products" class="btn">Explore Our Collection</a>
+      <h1>Where Elegance Meets Tradition</h1>
+      <p>Explore timeless jewelry crafted with devotion.</p>
+      <a href="#collections" class="btn">View Collection</a>
     </div>
   </section>
 
   <section id="about" class="about">
     <h2>About Us</h2>
-    <p>Santhosh Jewellers offers exquisite designs crafted with care and passion. We specialize in Designing, Crafting and Selling Jewelry, offering both Custom Designs and Traditional to Modern styles in Gold and Diamond Jewelry.</p>
+    <p>Santhosh Jewellers brings you handcrafted gold and gemstone jewelry rooted in tradition yet designed for modern elegance. With decades of trust and artistry, we deliver more than ornaments — we deliver heritage.</p>
   </section>
 
-  <section id="products" class="products">
-    <h2>Product Categories</h2>
-    <div class="product-grid">
-      <div class="product-card">Rings</div>
-      <div class="product-card">Mangalsutra</div>
-      <div class="product-card">Chains</div>
-      <div class="product-card">Necklaces</div>
-      <div class="product-card">Bracelets</div>
-      <div class="product-card">Bangles</div>
-      <div class="product-card">Pendants</div>
-      <div class="product-card">Nose Pins</div>
-      <div class="product-card">Earring Sets</div>
-    </div>
-  </section>
-
-  <section id="occasions" class="occasions">
-    <h2>Occasion Based Jewelry</h2>
-    <div class="occasion-grid">
-      <div class="occasion-card">
-        <h3>Daily Wear</h3>
-        <p>Elegant and comfortable designs for everyday style.</p>
+  <section id="collections" class="collections">
+    <h2>Our Collections</h2>
+    <div class="collection-grid">
+      <div class="item">
+        <img src="images/collection1.jpg" alt="Necklace">
+        <h3>Temple Jewelry</h3>
       </div>
-      <div class="occasion-card">
-        <h3>Marriages</h3>
-        <p>Traditional masterpieces perfect for weddings.</p>
+      <div class="item">
+        <img src="images/collection2.jpg" alt="Earrings">
+        <h3>Everyday Elegance</h3>
       </div>
-      <div class="occasion-card">
-        <h3>Gifting</h3>
-        <p>Charming jewels for special moments and celebrations.</p>
+      <div class="item">
+        <img src="images/collection3.jpg" alt="Bangles">
+        <h3>Bridal Sets</h3>
       </div>
     </div>
   </section>
 
   <section id="contact" class="contact">
     <h2>Contact Us</h2>
-    <form class="contact-form">
-      <input type="text" placeholder="Name" required />
-      <input type="email" placeholder="Email" required />
-      <textarea placeholder="Your Message" required></textarea>
-      <button type="submit">Send Message</button>
-    </form>
-    <p>Phone: 123-456-7890 | Email: contact@santhoshjewellers.com</p>
+    <p>Visit our store or call us for personalized jewelry services.</p>
+    <p><strong>Email:</strong> info@santhoshjewellers.com</p>
+    <p><strong>Phone:</strong> +91 98765 43210</p>
   </section>
 
   <footer>
-    <p>Santhosh Jewellers © 2025</p>
-    <div class="social-icons">
-      <span>🌐</span>
-      <span>📸</span>
-      <span>📘</span>
-    </div>
+    <p>&copy; 2025 Santhosh Jewellers. All rights reserved.</p>
   </footer>
-
-  <script>
-    function toggleMenu() {
-      const nav = document.getElementById("navLinks");
-      nav.classList.toggle("show");
-    }
-  </script>
 </body>
-
 </html>
