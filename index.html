@@ -1,38 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Santhosh Jewellers</title>  
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santhosh Jewellers</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-  <div class="header">
-    <div class="logo">Santhosh Jewellers</div>
-    <div class="social">
-      <a href="#"><img src="facebook.png" alt="Facebook"></a>
-      <a href="#"><img src="instagram.png" alt="Instagram"></a>
-    </div>
-  </div>
 
-  <div class="main-section">
-    <div class="grid">
-      <div class="tile tile1">Home</div>
-      <div class="tile tile2">Jewels</div>
-      <div class="tile tile3">Contacts</div>
-    </div>
+    <header>
+        <div class="container">
+            <h1 class="logo">Santhosh Jewellers</h1>
+            <nav>
+                <button class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-links">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#occasions">Occasions</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-    <div class="center-title">
-      <h1>Santhosh <span>J</span>ewellers</h1>
-      <p>Since 1984</p>
-    </div>
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h1>Santhosh Jewellers</h1>
+            <p class="tagline">Elegance in Every Carat</p>
+            <a href="#products" class="cta-button">Explore Our Collection</a>
+        </div>
+    </section>
 
-    <div class="grid">
-      <div class="tile tile4">Story</div>
-      <div class="tile tile5">Style</div>
-      <div class="tile tile6">Method</div>
-    </div>
-  </div>
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Santhosh Jewellers has been a trusted name in crafting exquisite jewelry for generations. We are passionate about creating timeless pieces that reflect elegance and sophistication. Our commitment to quality craftsmanship and unique designs has made us a preferred choice for discerning customers.</p>
+            <div class="services">
+                <h3>Our Services</h3>
+                <ul>
+                    <li>Designing, Crafting & Selling Jewelry</li>
+                    <li>Custom Designs</li>
+                    <li>Traditional & Modern Styles</li>
+                    <li>Gold & Diamond Pieces</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="products" class="products">
+        <div class="container">
+            <h2>Product Categories</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="images/rings.jpg" alt="Rings">
+                    <h3>Rings</h3>
+                </div>
+                <div class="product-card">
+                    <img src="images/mangalsutra.jpg" alt="Mangalsutra">
+                    <h3>Mangalsutra</h3>
+                </div>
+                <div class="product-card">
+                    <img src="images/chains.jpg" alt="Chains">
+                    <h3>Chains</h3>
+                </div>
+                <div class="product-card">
+                    <img src="images/necklaces.jpg" alt="Necklaces">
+                    <h3>Necklaces</h3>
+                </div>
+                <div class="product-card">
+                    <img src="images/bracelets.jpg" alt="Bracelets">
+                    <h3>Bracelets</h3>
+                </div>
+                <div class="product-card">
+                    <img src="images/bangles.jpg" alt="Bangles">
+                    <h3>Bangles</h3>
+                </div>
+                <div class="product-card">
+                    <img src="images/pendants.jpg" alt="Pendants">
+                    <h3>Pendants</h3>
+                </div>
+                <div class="product-card">
+                    <img src="images/nosepins.jpg" alt="Nose Pins">
+                    <h3>Nose Pins</h3>
+                </div>
+                <div class="product-card">
+                    <img src="images/earrings.jpg" alt="Earrings">
+                    <h3>Earrings</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="occasions" class="occasions">
+        <div class="container">
+            <h2>Jewelry for Every Occasion</h2>
+            <div class="occasion-grid">
+                <div class="occasion-card">
+                    <img src="images/daily-wear.jpg" alt="Daily Wear">
+                    <h3>Daily Wear</h3>
+                    <p>Elegant and comfortable pieces for your everyday style.</p>
+                </div>
+                <div class="occasion-card">
+                    <img src="images/marriages.jpg" alt="Marriages">
+                    <h3>Marriages</h3>
+                    <p>Exquisite collections to celebrate the most special union.</p>
+                </div>
+                <div class="occasion-card">
+                    <img src="images/gifting.jpg" alt="Gifting">
+                    <h3>Gifting</h3>
+                    <p>Perfect jewelry to express your love and appreciation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-wrapper">
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p><i class="fas fa-phone"></i> +91 [Your Phone Number]</p>
+                    <p><i class="fas fa-envelope"></i> info@[Your Email Address].com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> [Your Address], Hyderabad, Telangana</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Santhosh Jewellers. All Rights Reserved.</p>
+            <div class="social-icons">
+                <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('open');
+        });
+
+        // Basic fade-in animation on scroll (Optional)
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('show');
+                }
+            });
+        });
+
+        const hiddenElements = document.querySelectorAll('.about, .products, .occasions, .contact, .hero');
+        hiddenElements.forEach((el) => observer.observe(el));
+    </script>
+
 </body>
-
 </html>
