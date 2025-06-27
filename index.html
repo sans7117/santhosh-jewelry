@@ -186,5 +186,14 @@
     </div>
     <iframe id="chatbot-frame" src="https://YOUR_N8N_CHATBOT_URL" style="display:none;"></iframe>
 </div>
+
+    <script>
+function toggleChat() {
+    const frame = document.getElementById('chatbot-frame');
+    frame.style.display = (frame.style.display === 'none' || frame.style.display === '') ? 'block' : 'none';
+}
+</script>
+
+    
 </body>
 </html>
