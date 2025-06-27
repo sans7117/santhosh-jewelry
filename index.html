@@ -179,6 +179,12 @@
         const hiddenElements = document.querySelectorAll('.about, .products, .occasions, .contact, .hero');
         hiddenElements.forEach((el) => observer.observe(el));
     </script>
-
+<!-- Chatbot Icon and Window -->
+<div id="chatbot-container">
+    <div id="chatbot-icon" onclick="toggleChat()">
+        💬
+    </div>
+    <iframe id="chatbot-frame" src="https://YOUR_N8N_CHATBOT_URL" style="display:none;"></iframe>
+</div>
 </body>
 </html>
